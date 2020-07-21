@@ -1,0 +1,24 @@
+http://promberger.info/linux/2010/02/16/how-to-get-emacs-key-bindings-in-ubuntu/
+
+***********************************************************************************
+
+To get the Emacs key bindings (especially, Ctrl-a to go to beginning of line, Ctrl-e to end of line) systemwide, e.g. in Firefox, you use:
+
+gconf-editor
+and change the setting desktop → gnome → interface → gtk_key_theme from “Default” to “Emacs”.
+
+This entry was posted on Tuesday, February 16th, 2010 at 13:59 and is filed under Emacs, Linux, misc.. You can follow any responses to this entry through the RSS 2.0 feed. You can leave a response, or trackback from your own site.
+
+2 Responses to “How to get Emacs key bindings in Ubuntu”
+Brian Says:
+March 26th, 2010 at 18:57
+You get the “You Really Rock” award for most elegant solution to my problem. I just spent the good part of two hours on Google trying to find a solution to this problem, to no avail. And you’re solution worked flawlessly, even in Firefox. Thank you!
+
+Otto Says:
+April 30th, 2012 at 09:03
+Running Xubuntu with Xfce:
+
+From the Application menu select
+Settings -> Settings Editor -> xsettings -> Gtk -> KeyThemeName
+Click Edit property
+Change value to “Emacs” (w/o quotes)
